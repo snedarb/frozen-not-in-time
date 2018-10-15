@@ -5,14 +5,18 @@ html {
 
 h1 {
   color: #990073;
+  transform: rotate(-10deg);
+}
+
+p {
+  transform: rotate(-5deg);
+  max-width: 19em;
 }
 
 body {
-  background-image: repeating-linear-gradient(-45deg
-    #c9fcff,
-    #c9fcff 20px,
-    #d4fdff,
-    #d4fdff 40px);
+  background-image: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff 20px, #d4fdff, #d4fdff 40px);
+  border-top: 15px solid #b3fbff;
+  border-bottom: 15px solid #b3fbff;
 }
 
 .btn-ghost {
@@ -24,6 +28,22 @@ body {
 .btn-ghost:hover {
   color: #c09;
   border-color: #990073;
-  background-color: rgba(153, 0, 115, .2);
+  background-color: rgba(153, 0, 115, .1);
+}
+
+.text {
+  animation: text-appear 1s ease forwards;
+  text-shadow: 2px 2px rgba(102, 102, 102, .2);
+}
+
+@keyframes text-appear {
+
+  0% {
+    filter: blur(4px);
+  }
+
+  100% {
+    filter: blur(0);
+  }
 
 }
