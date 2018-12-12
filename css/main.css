@@ -28,11 +28,12 @@ body {
 }
 
 img {
-  width: 85px;
+  width: 200px;
   position: absolute;
 }
 
 .btn-ghost {
+  margin: 2em 0;
   background-color: transparent;
   color: #c09;
   border-color: #990073;
@@ -46,6 +47,26 @@ img {
 
 .text {
   animation: text-appear 1s ease forwards;
+}
+
+.cherry {
+  top: -300px;
+}
+
+.vanilla-fudge {
+  top: -300px;
+}
+
+.chocolate-chip {
+  top: -300px;
+}
+
+.mint-chip {
+  top: -300px;
+}
+
+.cone {
+  top: -300px;
 }
 
 @keyframes text-appear {
