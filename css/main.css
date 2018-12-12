@@ -19,6 +19,12 @@ body {
   border-top: 5px solid #d4fdff;
   border-bottom: 5px solid #d4fdff;
   padding: 2em 5em;
+  position: relative;
+}
+
+img {
+  width: 85px;
+  position: absolute;
 }
 
 .btn-ghost {
