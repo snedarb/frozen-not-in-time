@@ -69,14 +69,47 @@ img {
   animation: cone .5s linear forwards;
 }
 
-@keyframes cone {
+@keyframes vanilla-fudge {
 
   0% {
-    transform: translate(0, -500px);
+    transform: translateY(-300px);
   }
 
   100% {
-    transform: translateY(160px);
+    transform: translateY(450px);
+  }
+}
+
+@keyframes chocolate-chip {
+
+  0% {
+    transform: translateY(-300px);
+  }
+
+  100% {
+    transform: translateY(450px);
+  }
+}
+
+@keyframes mint-chip {
+
+  0% {
+    transform: translateY(-300px);
+  }
+
+  100% {
+    transform: translateY(450px);
+  }
+}
+
+@keyframes cone {
+
+  0% {
+    transform: translateY(-300px);
+  }
+
+  100% {
+    transform: translateY(450px);
   }
 }
 
