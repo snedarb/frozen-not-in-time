@@ -50,18 +50,22 @@ img {
 
 .cherry {
   top: -300px;
+  animation: cone .5s linear forwards;
 }
 
 .vanilla-fudge {
   top: -300px;
+  animation: cone .5s linear forwards;
 }
 
 .chocolate-chip {
   top: -300px;
+  animation: cone .5s linear forwards;
 }
 
 .mint-chip {
   top: -300px;
+  animation: cone .5s linear forwards;
 }
 
 .cone {
