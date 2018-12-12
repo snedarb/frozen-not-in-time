@@ -14,11 +14,11 @@ p {
   text-shadow: 1px 1px rgba(0, 0, 0, .5);
 }
 
-section {
+body {
   background-image: repeating-linear-gradient(-45deg, #b3fbff, #b3fbff 10px, #c9fcff 10px, #c9fcff 20px);
   border-top: 5px solid #d4fdff;
   border-bottom: 5px solid #d4fdff;
-  padding: 10em 5em;
+  padding: 2em 5em;
 }
 
 .btn-ghost {
