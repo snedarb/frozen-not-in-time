@@ -4,14 +4,16 @@ html {
 }
 
 h1 {
+  margin-top: .75em;
   color: #990073;
-  transform: rotate(-5deg);
+  transform: rotate(-7deg);
 }
 
 p {
   transform: rotate(-5deg);
   max-width: 19em;
   text-shadow: 1px 1px rgba(0, 0, 0, .5);
+  margin: 0;
 }
 
 body {
@@ -23,16 +25,16 @@ body {
 
 .stripes {
   background-image: repeating-linear-gradient(-45deg, #b3fbff, #b3fbff 10px, #c9fcff 10px, #c9fcff 20px);
-  padding: 2em 5em;
+  padding: 1em 2em;
 }
 
 img {
-  width: 200px;
+  width: 175px;
   position: absolute;
 }
 
 .btn-ghost {
-  margin: 2em 0;
+  margin: 2em 0 3em;
   background-color: transparent;
   color: #c09;
   border-color: #990073;
@@ -45,32 +47,44 @@ img {
 }
 
 .text {
-  animation: text-appear 1s ease forwards;
+  animation: text-appear 1s linear forwards;
 }
 
 .cherry {
   top: -300px;
-  animation: cone .5s linear forwards;
+  animation: cherry .5s 1s linear forwards;
 }
 
 .vanilla-fudge {
   top: -300px;
-  animation: cone .5s linear forwards;
+  animation: vanilla-fudge .5s .75s linear forwards;
 }
 
 .chocolate-chip {
   top: -300px;
-  animation: cone .5s linear forwards;
+  animation: chocolate-chip .5s .5s linear forwards;
 }
 
 .mint-chip {
   top: -300px;
-  animation: cone .5s linear forwards;
+  animation: mint-chip .5s .25s linear forwards;
 }
 
 .cone {
   top: -300px;
   animation: cone .5s linear forwards;
+}
+
+@keyframes cherry {
+
+  0% {
+    transform: translateY(-300px);
+  }
+
+  100% {
+    transform: translateY(275px);
+  }
+
 }
 
 @keyframes vanilla-fudge {
@@ -80,8 +94,9 @@ img {
   }
 
   100% {
-    transform: translateY(450px);
+    transform: translateY(350px);
   }
+
 }
 
 @keyframes chocolate-chip {
@@ -91,19 +106,21 @@ img {
   }
 
   100% {
-    transform: translateY(450px);
+    transform: translateY(425px);
   }
+
 }
 
 @keyframes mint-chip {
 
   0% {
-    transform: translateY(-300px);
+    transform: translateY(-200px);
   }
 
   100% {
-    transform: translateY(450px);
+    transform: translateY(500px);
   }
+
 }
 
 @keyframes cone {
@@ -113,8 +130,9 @@ img {
   }
 
   100% {
-    transform: translateY(450px);
+    transform: translateY(600px);
   }
+
 }
 
 @keyframes text-appear {
