@@ -24,7 +24,6 @@ body {
 .stripes {
   background-image: repeating-linear-gradient(-45deg, #b3fbff, #b3fbff 10px, #c9fcff 10px, #c9fcff 20px);
   padding: 2em 5em;
-
 }
 
 img {
@@ -67,6 +66,18 @@ img {
 
 .cone {
   top: -300px;
+  animation: cone .5s linear forwards;
+}
+
+@keyframes cone {
+
+  0% {
+    transform: translate(0, -500px);
+  }
+
+  100% {
+    transform: translateY(160px);
+  }
 }
 
 @keyframes text-appear {
